@@ -102,7 +102,7 @@ def set_bckgrnd(path):
     uses ctypes library to change background image
     returns: none
     '''
-    ctypes.windll.user32.SystemParametersInfoW(20, 0, path, 0)
+  ctypes.windll.user32.SystemParametersInfoW(20, 0, path, 0)
     
 
 main()
